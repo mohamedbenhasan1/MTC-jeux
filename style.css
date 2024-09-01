@@ -1,0 +1,56 @@
+body {
+  background: #CCEAF1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff !important;
+  pointer-events: none;
+}
+
+#chart {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  z-index: 1;
+}
+
+#chart::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 102%;
+  height: 102%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: -1;
+}
+
+#question {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  top: 0;
+  left: 530px; /* This value needs to be adjusted based on the layout */
+}
+
+#question p {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

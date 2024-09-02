@@ -12,19 +12,19 @@ var padding = {top:0, right:0, bottom:0, left:0},
         //http://osric.com/bingo-card-generator/?title=HTML+and+CSS+BINGO!&words=padding%2Cfont-family%2Ccolor%2Cfont-weight%2Cfont-size%2Cbackground-color%2Cnesting%2Cbottom%2Csans-serif%2Cperiod%2Cpound+sign%2C%EF%B9%A4body%EF%B9%A5%2C%EF%B9%A4ul%EF%B9%A5%2C%EF%B9%A4h1%EF%B9%A5%2Cmargin%2C%3C++%3E%2C{+}%2C%EF%B9%A4p%EF%B9%A5%2C%EF%B9%A4!DOCTYPE+html%EF%B9%A5%2C%EF%B9%A4head%EF%B9%A5%2Ccolon%2C%EF%B9%A4style%EF%B9%A5%2C.html%2CHTML%2CCSS%2CJavaScript%2Cborder&freespace=true&freespaceValue=Web+Design+Master&freespaceRandom=false&width=5&height=5&number=35#results
 
         var data = [
-            {"label": "Stylo", "value": 1, "question": "Bravo ! Vous avez gagné un Stylo Exclusif !", "count": 0, "maxCount": 3},
-            {"label": "OUPS!", "value": 2, "question": "Désolé, c'est raté :() ", "count": 0, "maxCount": 5},
-            {"label": "Note Book", "value": 3, "question": "Cadeau Utilitaire", "count": 0, "maxCount": 5},
-            {"label": "Second chance", "value": 4, "question": "Quelle chance ! Rejouer", "count": 0, "maxCount": 2},
-            {"label": "Chocolat", "value": 5, "question": "Miam miam ils sont bons les chocolats :)", "count": 0, "maxCount": 4},
-            {"label": "Seconde Chance", "value": 6, "question": "Quelle chance ! Rejouer", "count": 0, "maxCount": 2},
-            {"label": "Bracelet", "value": 7, "question": "Toooooop", "count": 0, "maxCount": 3},
-            {"label": "Stiker", "value": 8, "question": "MTC stikers", "count": 0, "maxCount": 3},
-            {"label": "Chocolat", "value": 9, "question": "Miam miam ils sont bons les chocolats :)", "count": 0, "maxCount": 4},
-            {"label": "OUPS!", "value": 10, "question": "Désolé, c'est raté :()", "count": 0, "maxCount": 5},
-            {"label": "Stiker", "value": 11, "question": "MTC stikers", "count": 0, "maxCount": 3},
-            {"label": "Bracelet", "value": 12, "question": "Tooooop", "count": 0, "maxCount": 3},
-            {"label": "Chocolat", "value": 13, "question": "Miam miam ils sont bons les chocolats :)", "count": 0, "maxCount": 4}
+            {"label": "Stylo", "value": 1, "question": "Bravo ! Vous avez gagné un Stylo Exclusif !", "count": 0, "maxCount": 10},
+            {"label": "OUPS!", "value": 2, "question": "Désolé, c'est raté :() ", "count": 0, "maxCount": 50},
+            {"label": "Note Book", "value": 3, "question": "Cadeau Utilitaire", "count": 0, "maxCount": 8},
+            {"label": "Second chance", "value": 4, "question": "Quelle chance ! Rejouer", "count": 0, "maxCount": 20},
+            {"label": "Chocolat", "value": 5, "question": "Miam miam ils sont bons les chocolats :)", "count": 0, "maxCount": 30},
+            {"label": "Second Chance", "value": 6, "question": "Quelle chance ! Rejouer", "count": 0, "maxCount": 60},
+            {"label": "Bracelet", "value": 7, "question": "Toooooop", "count": 0, "maxCount": 1},
+            {"label": "Sticker", "value": 8, "question": "MTC stikers", "count": 0, "maxCount": 20},
+            {"label": "Note", "value": 9, "question": "Miam miam ils sont bons les chocolats :)", "count": 0, "maxCount": 40},
+            {"label": "OUPS!", "value": 10, "question": "Désolé, c'est raté :()", "count": 0, "maxCount": 50},
+            {"label": "Sticker", "value": 11, "question": "MTC stikers", "count": 0, "maxCount": 20},
+            {"label": "Bracelet", "value": 12, "question": "Tooooop", "count": 0, "maxCount": 2},
+            {"label": "Chocolat", "value": 13, "question": "Miam miam ils sont bons les chocolats :)", "count": 0, "maxCount": 30}
         ];
         
         function spin() {
